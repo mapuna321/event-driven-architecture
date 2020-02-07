@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+subscriber:
+  rabbitmq-config:
+    directExchange: learning.direct
+    topicExchange: learning.topic
+    fanoutExchange: learning.fanout
+    directExchangeBindingKey: direct.routing
+    topicExchangeBindingKey: topic.#
+    directExchangeQueue: learning.direct.queue
+    topicExchangeQueue: learning.topic.queue
+    fanoutExchangeFirstQueue: learning.fanout.queue.first
+    fanoutExchangeSecondQueue: learning.fanout.queue.second
+    fanoutExchangeThirdQueue: learning.fanout.queue.third

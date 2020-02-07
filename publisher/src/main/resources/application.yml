@@ -1,0 +1,7 @@
+publisher:
+  rabbitmq-config:
+    directExchange: learning.direct
+    topicExchange: learning.topic
+    fanoutExchange: learning.fanout
+    directExchangeRoutingKey: direct.routing
+    topicExchangeRoutingKey: topic.routing
