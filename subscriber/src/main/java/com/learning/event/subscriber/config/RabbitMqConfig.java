@@ -1,10 +1,10 @@
-package com.learning.event.subsriber.config;
+package com.learning.event.subscriber.config;
 
-import com.learning.event.subsriber.rabbitmq.RabbitMessageDirectQueueListener;
-import com.learning.event.subsriber.rabbitmq.RabbitMessageFanoutQueueListener;
-import com.learning.event.subsriber.rabbitmq.RabbitMessageFanoutQueueSecondListener;
-import com.learning.event.subsriber.rabbitmq.RabbitMessageFanoutQueueThirdListener;
-import com.learning.event.subsriber.rabbitmq.RabbitMessageTopicQueueListener;
+import com.learning.event.subscriber.rabbitmq.RabbitMessageDirectQueueListener;
+import com.learning.event.subscriber.rabbitmq.RabbitMessageFanoutQueueListener;
+import com.learning.event.subscriber.rabbitmq.RabbitMessageFanoutQueueThirdListener;
+import com.learning.event.subscriber.rabbitmq.RabbitMessageTopicQueueListener;
+import com.learning.event.subscriber.rabbitmq.RabbitMessageFanoutQueueSecondListener;
 import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.core.AmqpAdmin;
 import org.springframework.amqp.core.Binding;

@@ -1,10 +1,10 @@
-package com.learning.event.subsriber;
+package com.learning.event.subscriber;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SubsriberApplicationTests {
+class SubscriberApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package com.learning.event.subsriber.config;
+package com.learning.event.subscriber.config;
 
 import lombok.Data;
 import lombok.Getter;

@@ -1,13 +1,13 @@
-package com.learning.event.subsriber;
+package com.learning.event.subscriber;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SubsriberApplication {
+public class SubscriberApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SubsriberApplication.class, args);
+		SpringApplication.run(SubscriberApplication.class, args);
 	}
 
 }

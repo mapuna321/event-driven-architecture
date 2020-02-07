@@ -1,4 +1,4 @@
-package com.learning.event.subsriber.rabbitmq;
+package com.learning.event.subscriber.rabbitmq;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Message;
